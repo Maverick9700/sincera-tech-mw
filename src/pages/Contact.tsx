@@ -82,8 +82,8 @@ export default function Contact() {
             serviceId,
             templateId,
             {
-              from_name: formState.name,
-              from_email: formState.email,
+              full_name: formState.name,
+              email: formState.email,
               phone: formState.phone,
               service: formState.service,
               message: formState.message,
